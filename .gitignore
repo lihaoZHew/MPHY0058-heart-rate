@@ -1,0 +1,7 @@
+# 视频超过 GitHub 100MB 上限，组员各自从 Moodle 下载
+data/video_of_finger.MOV
+
+# 系统和 Jupyter 自动生成的文件
+.DS_Store
+.ipynb_checkpoints/
+~$*.docx
