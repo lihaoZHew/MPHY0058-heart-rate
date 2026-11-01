@@ -6,7 +6,7 @@ Estimating heart rate from (A) an optical sensor signal and (B) a phone-camera v
 | Name | GitHub | Role |
 |---|---|---|
 | Haozhe Li | @lihaoZHew | Repository owner, Part A code |
-| Lucas Xue | @Lucas_Xue | Part A code & report |
+| Lucas Xue | @Lucas-Xue | Part A code & report |
 | Yanxi Xie | @Eden19697 | Part B – video loading |
 | Shuming Zhang | @zsooogod | Part B – filtering & FFT |
 | Xiaoan Shi | @SeanS1026 | Introduction, discussion, references |
