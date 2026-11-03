@@ -7,8 +7,8 @@ Estimating heart rate from (A) an optical sensor signal and (B) a phone-camera v
 |---|---|---|
 | Haozhe Li | @lihaoZHew | Repository owner, Part A code |
 | Lucas Xue | @Lucas-Xue | Part A code & report |
-| Yanxi Xie | @Eden19697 | Part B – video loading |
-| Shuming Zhang | @zsooogod | Part B – filtering & FFT |
+| Yanxi Xie | @Eden19697 | Part B – video loading & filtering |
+| Shuming Zhang | @zsooogod | Part B – FFT, peak detection & summary |
 | Xiaoan Shi | @SeanS1026 | Introduction, discussion, references |
 
 ## Project structure
