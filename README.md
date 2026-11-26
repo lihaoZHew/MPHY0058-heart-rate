@@ -22,4 +22,28 @@ Estimating heart rate from (A) an optical sensor signal and (B) a phone-camera v
 Download it from Moodle and place it at `data/video_of_finger.MOV`.
 
 ## Environment
-Python with numpy, pandas, matplotlib, scipy and opencv-python.
+The results in the notebook and report were produced with:
+
+| Package | Version |
+|---|---|
+| Python | 3.13.9 |
+| numpy | 2.3.5 |
+| pandas | 2.3.3 |
+| scipy | 1.16.3 |
+| matplotlib | 3.10.6 |
+| opencv-python | 5.0.0.93 |
+
+Install with:
+
+```bash
+pip install numpy==2.3.5 pandas==2.3.3 scipy==1.16.3 matplotlib==3.10.6 opencv-python==5.0.0.93 jupyter
+```
+
+The video is read with OpenCV's **FFmpeg** backend (`cv2.CAP_FFMPEG`), which the standard `opencv-python` wheels include. Different backends decode the same file to different grayscale values, so the notebook fixes the backend and prints its name and the OpenCV version in section B.1.
+
+## How to run
+1. Place `video_of_finger.MOV` in `data/` (see above).
+2. Open `heart_rate.ipynb` and choose **Restart & Run All**. Part B reuses functions from Part A, so the cells must run in order.
+3. Figures are written to `figures/` and numerical results to `data/` (`partA_*.csv`, `partB_*.csv`).
+
+Expected results: Part A 55.1 bpm (FFT) and 55.5 bpm (peak intervals); Part B 71.9 bpm (FFT, 71.87) and 71.9 bpm (peak intervals, 71.95).
